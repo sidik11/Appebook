@@ -25,9 +25,8 @@ import android.view.Gravity
 import android.view.ViewGroup
 import android.webkit.ValueCallback
 import android.webkit.WebChromeClient.FileChooserParams
-import androidx.activity.ComponentActivity
 
-class MainActivity : ComponentActivity() {
+class MainActivity : Activity() {
     private lateinit var webView: WebView
     private lateinit var progress: ProgressBar
     private lateinit var errorPanel: LinearLayout
