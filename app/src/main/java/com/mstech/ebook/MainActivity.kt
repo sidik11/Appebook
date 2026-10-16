@@ -89,7 +89,7 @@ class MainActivity : Activity() {
         settings.allowFileAccess = false
         settings.allowContentAccess = true
         settings.mediaPlaybackRequiresUserGesture = true
-        settings.userAgentString = settings.userAgentString + " MSGeekBookAndroid/1.0"
+        settings.userAgentString = settings.userAgentString + " MSTechEBookAndroid/1.0"
 
         CookieManager.getInstance().setAcceptCookie(true)
         CookieManager.getInstance().setAcceptThirdPartyCookies(webView, true)
